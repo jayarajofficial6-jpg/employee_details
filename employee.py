@@ -5,9 +5,9 @@ def get_employee_info(name, emp_id, department, salary):
     Returns a formatted string containing employee details.
     """
     return (
-        f"Employee Name: {name}\n"
-        f"Employee ID: {emp_id}\n"
-        f"Department: {department}\n"
+        f"Employee Name: {name},"
+        f"Employee ID: {emp_id},"
+        f"Department: {department},"
         f"Salary: {salary:.2f}"
     )
 
